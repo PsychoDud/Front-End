@@ -1,1 +1,16 @@
-<p>logo-ap works!</p>
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/Argentina Programa logo.png" id="logo">
+        </div>
+        <div class="redes">
+                <a href=""><img src="../../../assets/Logo Linkedin.png" alt=""></a>
+                <a href=""><img src="../../../assets/Logo Face.png" alt=""></a>
+                <a href=""><img src="../../../assets/Logo Instagram.png" alt=""></a>
+                <a href=""><img src="../../../assets/Logo Whatsapp.png" alt=""></a>
+                <button type="button" class="btn btn-outline-dark" (click) = "login()"*ngIf="!islogged">Entrar</button>
+                <button type="button" class="btn btn-outline-dark" (click) = "onLogOut()" *ngIf="islogged">Salir</button>
+            </div>        
+    </div>
+</div>
+
