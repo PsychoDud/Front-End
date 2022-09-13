@@ -7,7 +7,7 @@ import {Experiencia} from '../partes/model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'http://localhost:8080/explab/'
+  expURL = 'https://backenders.herokuapp.com/explab/'
   constructor(private httpClient: HttpClient) { }
 
   public lista():Observable <Experiencia[]>{
