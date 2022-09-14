@@ -23,6 +23,7 @@ import { NeweducacionComponent } from './partes/educacion/neweducacion.component
 import { EditeducacionComponent } from './partes/educacion/editeducacion.component';
 import { EditSkillComponent } from './partes/skills/edit-skill.component';
 import { NewSkillComponent } from './partes/skills/new-skill.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { NewSkillComponent } from './partes/skills/new-skill.component';
     NeweducacionComponent,
     EditeducacionComponent,
     EditSkillComponent,
-    NewSkillComponent,
+    NewSkillComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -52,6 +54,8 @@ import { NewSkillComponent } from './partes/skills/new-skill.component';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     FormsModule,
+    BrowserAnimationsModule
+    
     
   ],
   providers: [
