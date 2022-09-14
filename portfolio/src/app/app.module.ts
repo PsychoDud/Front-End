@@ -21,6 +21,8 @@ import { FormsModule } from '@angular/forms';
 import { EditExperienciaComponent } from './partes/experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './partes/educacion/neweducacion.component';
 import { EditeducacionComponent } from './partes/educacion/editeducacion.component';
+import { EditSkillComponent } from './partes/skills/edit-skill.component';
+import { NewSkillComponent } from './partes/skills/new-skill.component';
 
 
 @NgModule({
@@ -41,6 +43,8 @@ import { EditeducacionComponent } from './partes/educacion/editeducacion.compone
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
+    EditSkillComponent,
+    NewSkillComponent,
   ],
   imports: [
     BrowserModule,
